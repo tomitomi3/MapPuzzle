@@ -5,9 +5,15 @@
 
 Maker Faire Tokyo 2023で展示した47都道府県のSTLデータです。
 
-### 地図データの出展
+[Shape2STL](https://github.com/tomitomi3/Shape2stl)を使用してShapeデータをSTLに変換しています。
 
-国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）を加工して作成しています。
+### 概要
+
+* 地図の投影にアルベルス正積円錐図法を用いています。
+* 地図パズルのSTLデータは県に外接する矩形の1辺が20cmになるようにしています。
+* STLは県毎に2つあります。
+  * [県コード]_ [都道府県名] _[～略～].stl 地図パズル本体
+  * [県コード]_ [都道府県名] _[～略～]_wakubottom.stl 地図パズルの枠
 
 ### 3Dプリンタ パラメータ
 
@@ -19,3 +25,7 @@ Curaの設定を下記にして印刷しています。
   * <img src="img\3dprinter_setting_1.PNG">
 * ビルドプレート スカート
   * <img src="img\3dprinter_setting_2.PNG">
+
+### 地図データの出展
+
+国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）を加工して作成しています。
