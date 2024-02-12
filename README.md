@@ -3,7 +3,7 @@
 
 [Shape2STL](https://github.com/tomitomi3/Shape2stl)を使用してShapeデータをSTLに変換しています。
 
-## [MFT2023ver 47都道府県 市区町村ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityPuzzle_MFT2023)
+## [MFT2023 47都道府県 市区町村ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityPuzzle_MFT2023)
 
 Maker Faire Tokyo 2023で展示した47都道府県 市区町村ジグソーパズルのSTLデータです。
 
@@ -18,18 +18,20 @@ Maker Faire Tokyo 2023で展示した47都道府県 市区町村ジグソーパ�
 
 #### 地図データの出展
 
-* 国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）を加工して作成しています。
+下記のデータを加工して作成しています。
+
+* 国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）
 
 ## [YOXO2040 市区町村・町丁目ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityTownPuzzle_YOXO2024)
 
-[YOXO FESTIVAL 2024](https://yoxo-o.jp/yoxofestival/)で展示した市区町村・町丁目ジグソーパズルのSTLデータです。
-
-YOXOでは下記を展示しました。
+[YOXO FESTIVAL 2024](https://yoxo-o.jp/yoxofestival/)で展示した市区町村・町丁目ジグソーパズルのSTLデータです。YOXOでは下記を展示しました。
 
 * 石川県と富山県
 * 神奈川県
 * 神奈川県横浜市中区（会場が神奈川県 ハンマーヘッドだったため）
-* 石川県の立体化
+* [石川県の立体化](https://github.com/tomitomi3/MapPuzzle/tree/main/ThreeDimensionalPref_YOXO2040)
+  * 標高情報から立体化。縮尺を同じにすると標高が分かりにくいため意図的にZ軸を強調している。
+  * 市区町村界と標高メッシュデータから作成。巨大なデータのためG-Code変換にも時間がかかるので注意。
 
 #### 補足
 
@@ -46,6 +48,7 @@ YOXOでは下記を展示しました。
 
 * 国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）
 * 令和２年国勢調査 町丁・字等境界データ 政府統計の総合窓口(e-Stat)（ https://www.e-stat.go.jp/ ）
+* 国土数値情報 標高傾斜度4次メッシュ（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html ）
 
 ## 3Dプリンタパラメータ
 
