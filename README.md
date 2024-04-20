@@ -3,6 +3,66 @@
 
 [Shape2STL](https://github.com/tomitomi3/Shape2stl)を使用してShapeデータをSTLに変換しています。
 
+
+
+## [日本 都道府県単位ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/Country_Japan)
+
+日本 都道府県単位のジグソーパズルです。縮尺、印刷するサイズの関係で沖縄県は外しています。。。
+
+#### 補足
+
+* ジグソーパズルのSTLデータは2つあります。
+  * ～略～_[都道府県名] _～略～.stl 地図パズル本体
+  * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
+* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
+
+#### 地図データの出展
+
+下記のデータを加工して作成しています。
+
+* 国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）
+
+## [United States アメリカ 州単位、カリフォルニア州 ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/Country_UnitedStates)
+
+アメリカの州単位のジグソーパズル、アメリカ カリフォルニア州のジグソーパズルです。
+
+#### 補足
+
+* ジグソーパズルのSTLデータは2つあります。
+  * ～略～_[都道府県名] _～略～.stl 地図パズル本体
+  * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
+* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
+
+#### 地図データの出展
+
+下記のデータを加工して作成しています。
+
+* [Cartographic Boundary Files](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html)
+
+## [NT京都2024 市区町村・町丁目ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityTownPuzzle_NTKyoto2024)
+
+下記を展示しました。
+
+* 京都府 市区町村単位のジグソーパズル
+* 京都府京都市 烏丸駅半径500m 町丁目単位のジグソーパズル
+* 京都府京都市 標高を元に立体化
+* 京都府京都市 人口（夜間人口）を元に立体化
+
+#### 補足
+
+* ジグソーパズルのSTLデータは2つあります。
+  * ～略～_[都道府県名] _～略～.stl 地図パズル本体
+  * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
+* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
+
+#### 地図データの出展
+
+下記のデータを加工して作成しています。
+
+* 国土数値情報 行政区域 第3.1版（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html ）
+* 令和２年国勢調査 町丁・字等境界データ 政府統計の総合窓口(e-Stat)（ https://www.e-stat.go.jp/ ）
+* 国土数値情報 標高傾斜度4次メッシュ（ https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-G04-c.html ）
+
 ## [KMMF2024 市区町村・町丁目ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityTownPuzzle_KMMF2024)
 
 <img src="https://github.com/tomitomi3/MapPuzzle/blob/main/img/kmmf2024_aichi_kariya.jpg" width="50%">
