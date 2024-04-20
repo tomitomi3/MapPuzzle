@@ -1,11 +1,13 @@
 # MapPuzzle
 地図データから作る地図ジグソーパズル / Map Puzzle made from Shape data
 
+地図ジグソーパズルのSTLでーたを公開しています。ピースと枠の２つに分かれています。印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
+
 [Shape2STL](https://github.com/tomitomi3/Shape2stl)を使用してShapeデータをSTLに変換しています。
 
-
-
 ## [日本 都道府県単位ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/Country_Japan)
+
+<img src="https://github.com/tomitomi3/MapPuzzle/blob/main/img/japan_pref.JPG">
 
 日本 都道府県単位のジグソーパズルです。縮尺、印刷するサイズの関係で沖縄県は外しています。。。
 
@@ -14,7 +16,6 @@
 * ジグソーパズルのSTLデータは2つあります。
   * ～略～_[都道府県名] _～略～.stl 地図パズル本体
   * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
 
 #### 地図データの出展
 
@@ -24,6 +25,8 @@
 
 ## [United States アメリカ 州単位、カリフォルニア州 ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/Country_UnitedStates)
 
+<img src="https://github.com/tomitomi3/MapPuzzle/blob/main/img/unitedstates_and_california.JPG" width="50%">
+
 アメリカの州単位のジグソーパズル、アメリカ カリフォルニア州のジグソーパズルです。
 
 #### 補足
@@ -31,7 +34,6 @@
 * ジグソーパズルのSTLデータは2つあります。
   * ～略～_[都道府県名] _～略～.stl 地図パズル本体
   * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
 
 #### 地図データの出展
 
@@ -40,6 +42,8 @@
 * [Cartographic Boundary Files](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html)
 
 ## [NT京都2024 市区町村・町丁目ジグソーパズル](https://github.com/tomitomi3/MapPuzzle/tree/main/CityTownPuzzle_NTKyoto2024)
+
+<img src="https://github.com/tomitomi3/MapPuzzle/blob/main/img/ntkyoto2024_kyoto.JPG">
 
 下記を展示しました。
 
@@ -53,7 +57,6 @@
 * ジグソーパズルのSTLデータは2つあります。
   * ～略～_[都道府県名] _～略～.stl 地図パズル本体
   * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
 
 #### 地図データの出展
 
@@ -82,7 +85,6 @@
 * ジグソーパズルのSTLデータは2つあります。
   * ～略～_[都道府県名] _～略～.stl 地図パズル本体
   * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照してください。
 
 #### 地図データの出展
 
@@ -110,7 +112,6 @@
 * STLデータは県毎に2つあります。
   * ～略～_[都道府県名] _～略～.stl 地図パズル本体
   * ～略～_ [都道府県名] _～略～_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照
 
 #### 地図データの出展
 
@@ -131,7 +132,6 @@ Maker Faire Tokyo 2023で展示した47都道府県 市区町村ジグソーパ�
 * STLデータは県毎に2つあります。
   * [県コード]_ [都道府県名] _[～略～].stl 地図パズル本体
   * [県コード]_ [都道府県名] _[～略～]_wakubottom.stl 地図パズルの枠
-* 印刷時は下部の[パラメータ](https://github.com/tomitomi3/MapPuzzle/tree/main#3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF)参照
 
 #### 地図データの出展
 
